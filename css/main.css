@@ -124,7 +124,8 @@ main {
 
 header,
 footer,
-main {
+main
+ {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
     display: flex;
     justify-content: center;
@@ -151,8 +152,9 @@ main {
 .flex-container {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .flex-items {
